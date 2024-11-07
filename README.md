@@ -1,2 +1,0 @@
-# Galeriaa
-Minha Galeria legal
