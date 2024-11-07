@@ -1,0 +1,36 @@
+/* Reset e estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do cabeçalho */
+header {
+    text-align: center;
+    background: #0bbaff;
+    padding: 20px;
+    border-bottom: 3px solid #ffffff;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 15px;
+}
+
+/* Estilo do título */
+h1 {
+    font: 2.5rem 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+/* Estilo das imagens */
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform .3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
